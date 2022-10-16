@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="28168" started-at="2022-10-16T21:03:18 IST" finished-at="2022-10-16T21:03:46 IST">
+    <groups>
+    </groups>
+    <test name="ExpleoAutomationTest" duration-ms="28168" started-at="2022-10-16T21:03:18 IST" finished-at="2022-10-16T21:03:46 IST">
+      <class name="CurrencyTest">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:CurrencyTest@724af044]" name="initiateDriver" is-config="true" duration-ms="10068" started-at="2022-10-16T21:03:18 IST" finished-at="2022-10-16T21:03:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriver -->
+        <test-method status="PASS" signature="enterCurrencyData()[pri:0, instance:CurrencyTest@724af044]" name="enterCurrencyData" duration-ms="17871" started-at="2022-10-16T21:03:28 IST" description="USD to different currency conversion test" finished-at="2022-10-16T21:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCurrencyData -->
+        <test-method status="PASS" signature="closeWindow()[pri:0, instance:CurrencyTest@724af044]" name="closeWindow" is-config="true" duration-ms="203" started-at="2022-10-16T21:03:46 IST" finished-at="2022-10-16T21:03:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- CurrencyTest -->
+    </test> <!-- ExpleoAutomationTest -->
+  </suite> <!-- Default Suite -->
+</testng-results>
