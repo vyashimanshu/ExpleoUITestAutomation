@@ -32,9 +32,9 @@ mvn --version
 ```
 
 ### Execution 
--- Test class CurrencyTest.java can be run using run configuration option in Intellj
--- In Eclipse it can be run with option by right click then run as testng
+- Test class CurrencyTest.java can be run using run configuration option in Intellj
+- In Eclipse it can be run with option by right click then run as testng
 
 ### Reports
--- Execution is reporte is generated in test-output folder in html and xml format
+- Execution is reporte is generated in test-output folder in html and xml format
 
