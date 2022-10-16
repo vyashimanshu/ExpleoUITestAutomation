@@ -32,9 +32,6 @@ public class CurrencyTest extends BaseTests {
             String getValue = actions.getText();
             String removeChar = getValue.substring(0,4);
             double expected = Double.parseDouble(removeChar);
-//            int num = 2;
-//            expected = Math.round(expected * Math.pow(10, num))
-//                    / Math.pow(10, num);
             System.out.println("Conversion value of USD to " +curr[i] + " is 1 USD = " + expected +" " + curr[i]);
             Assert.assertEquals(actual[i],expected,"Same conversion value not found");
             actions.waitForElement(ConversionPageUI.convertTab);
