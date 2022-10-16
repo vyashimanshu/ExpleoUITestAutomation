@@ -8,7 +8,7 @@ public class CurrencyTest extends BaseTests {
     WebBase base = new WebBase();
     WebActions actions = new WebActions();
     public static String[] curr = {"GBP","INR","EUR","AED","CAD"};
-    public static double[] actual = {0.8950,82.29,1.028,3.672,1.389};
+    public static double[] actual = {0.89,82.2,1.02,3.67,1.38};
 
     @Test(description = "USD to different currency conversion test")
     public void enterCurrencyData() throws InterruptedException {
@@ -30,7 +30,7 @@ public class CurrencyTest extends BaseTests {
             actions.waitForElement(ConversionPageUI.convertButton);
             actions.clickOnElement(ConversionPageUI.convertButton);
             String getValue = actions.getText();
-            String removeChar = getValue.substring(0,5);
+            String removeChar = getValue.substring(0,4);
             double expected = Double.parseDouble(removeChar);
 //            int num = 2;
 //            expected = Math.round(expected * Math.pow(10, num))
