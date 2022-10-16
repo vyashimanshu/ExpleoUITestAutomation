@@ -36,5 +36,5 @@ mvn --version
 - In Eclipse it can be run with option by right click then run as testng
 
 ### Reports
-- Execution is reporte is generated in test-output folder in html and xml format
+- Execution report is generated in test-output folder in html and xml format
 
