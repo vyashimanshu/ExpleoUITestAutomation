@@ -8,7 +8,7 @@ public class CurrencyTest extends BaseTests {
     WebBase base = new WebBase();
     WebActions actions = new WebActions();
     public static String[] curr = {"GBP","INR","EUR","AED","CAD"};
-    public static double[] actual = {0.89,82.29,1.03,3.67,1.39};
+    public static double[] actual = {0.8950,82.29,1.028,3.672,1.389};
 
     @Test(description = "USD to different currency conversion test")
     public void enterCurrencyData() throws InterruptedException {
@@ -32,9 +32,9 @@ public class CurrencyTest extends BaseTests {
             String getValue = actions.getText();
             String removeChar = getValue.substring(0,5);
             double expected = Double.parseDouble(removeChar);
-            int num = 2;
-            expected = Math.round(expected * Math.pow(10, num))
-                    / Math.pow(10, num);
+//            int num = 2;
+//            expected = Math.round(expected * Math.pow(10, num))
+//                    / Math.pow(10, num);
             System.out.println("Conversion value of USD to " +curr[i] + " is 1 USD = " + expected +" " + curr[i]);
             Assert.assertEquals(actual[i],expected,"Same conversion value not found");
             actions.waitForElement(ConversionPageUI.convertTab);
