@@ -9,7 +9,7 @@ public class CurrencyTest extends BaseTests {
     WebBase base = new WebBase();
     WebActions actions = new WebActions();
     public static String[] curr = {"GBP","INR","EUR","AED","CAD"};
-    public static double[] actual = {0.89,82.2,1.02,3.67,1.38};
+    public static double[] actual = {0.88,82.3,1.02,3.67,1.38};
     SoftAssert softAssert = new SoftAssert();
 
     @Test(description = "USD to different currency conversion test")
